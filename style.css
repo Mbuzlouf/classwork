@@ -1,9 +1,12 @@
-.bodybac{
-    background-image: url(./background.jpg);
-    background-repeat: no-repeat;
-    background-size: cover;
-    background-color: rgba(0, 0, 0, 0.808);
-    margin: 0;
+.bodybac {
+  background-image: url(./background.jpg);
+  background-repeat: no-repeat;
+  background-size: cover;
+  background-color: rgba(0, 0, 0, 0.808);
+  margin: 0;
+}
+.flexer {
+  display: flex;
 }
 /* من الخواص التي يجب تغيرها لكي تصل للمطلوب
     1. لون الخلفيه
@@ -19,93 +22,91 @@
 /* ----------------------العنوان-------------------------- */
 /* -------------------------------------------------------- */
 
-
-
-
 /*العرض يجب ان يكون حوالي 1100px */
-.navbar{
-    
-    padding: 0;
-    margin: 0;
-   
+.navbar {
+  background-color: black;
+  opacity: 70%;
+  padding: 0;
+  margin: 0;
+  width: 1700px;
+  color: white;
+  text-decoration: none;
+}
+.navbar a {
+  color: white;
+}
+.head-ul {
+  list-style-type: none;
+  display: flex;
 }
 
-.head-ul{
-    
+.head-a {
+  text-decoration: none;
+  font-size: 20px;
 }
-
-
-.head-a{
-    text-decoration: none;
-    font-size: 20px;
-}
-.title{
-    text-align: center;
-    margin: 0;
+.title {
+  text-align: center;
+  margin: 0;
 }
 /* استعمل الهوامش او الحواشي لتعديل الشكل  */
-.head-li{
- 
-   
+.head-li {
+  padding: 20px;
 }
 
 /* ---------------------------------------------------------- */
-
-
 
 /* ---------------------------------------------------------- */
 /* -----------------------المحتوى---------------------------- */
 /* ----------------------------------------------------------- */
 
 /* غير في العرض الخاص بالمينيو لجعلة اصغر حجما كالصورة */
-.menu{
-    display: block;
-    background-color: rgb(255, 255, 255);
-    margin-top: 50px;
-    padding-left: 50px;
-    padding-right: 20px;
-    padding-top: 30px;
-    height: 500px;
+.menu {
+  display: block;
+  background-color: rgb(255, 255, 255);
+  margin-top: 50px;
+  padding-left: 50px;
+  padding-right: 20px;
+  padding-top: 30px;
+  height: 500px;
+  width: 500px;
+  border-radius: 20px;
+  margin: auto;
 }
-img{
-    width: 100px;
-    height: 100px;
-    margin-left: 100px;
-    border-radius: 20px;
+img {
+  width: 100px;
+  height: 100px;
+  margin-left: 100px;
+  border-radius: 20px;
 }
 
-
-.menu-title{
-   display: block;
+.menu-title {
+  display: block;
 }
 /* -------------------------------------------------------------- */
 
-
 /* --------------------------------------------------------------
- /* ------------------------الشريط الجانبي----------------------*/ 
- /* ------------------------------------------------------------ */
+ /* ------------------------الشريط الجانبي----------------------*/
+/* ------------------------------------------------------------ */
 /*  200pxاجعل عرض الشريط   */
-.sidebar{
-background-color: rgba(255, 255, 255, 0.795);
-
+.sidebar {
+  background-color: rgba(255, 255, 255, 0.795);
+  width: 200px;
+  height: 100vh;
 }
- .link{
-
-} 
-.link:hover{
-    color: rgb(112, 111, 111);
+.link {
+  text-decoration: none;
+  color: black;
 }
-.side-ul{
-    margin-left:40px;
-    
+.link:hover {
+  color: rgb(112, 111, 111);
 }
-h2{
-    margin-left: 30px;
+.side-ul {
+  margin-left: 40px;
+  list-style-type: none;
 }
-.side-li{
-    padding-top: 10px;
+h2 {
+  margin-left: 30px;
 }
-
-
-
-
+.side-li {
+  padding-top: 10px;
+}
